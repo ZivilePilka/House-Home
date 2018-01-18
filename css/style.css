@@ -6,7 +6,6 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #94badf;
   color: #fff;
-  text-align: center;
 }
 
 h1,
@@ -24,21 +23,33 @@ h1 {
 h2 {
   font-size: 2.5em;
   color: #6387bb;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.1em;
   color: #abc849;
+  text-align: center;
+  padding: 0.5em;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  padding: 2em 0;
 }
 
 ul li a {
   text-decoration: none;
+  color: #fff;
+}
+
+nav ul li {
+  font-weight: bold;
+}
+
+nav ul li i {
   color: #fff;
 }
 
@@ -75,15 +86,79 @@ header {
 
 .content {
   position: relative;
-  top: -50px;
+  top: -5em;;
   background: white;
+  padding: 0;
 }
 
 input {
+  width: 100%;
+  padding: 1em;
   background-color: #6387bb;
+  color: lightgrey;
+  border-style: none;
+  text-indent: 3em;
+  margin-bottom: 0.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 0 2em;
+}
+
+.home-card {
+  border: 1px solid #dedede;
+  padding: 1em 0;
+  margin: 1em;
+  position: relative;
+  /*justify-content: space-around;*/
+}
+
+.home-card p {
+  color: #6f6f6f;
+  padding: 1em;
+  margin: 0;
+  text-align: left;
+}
+
+.home-card a {
+  color: #abc849;
+  padding: 1em;
+}
+
+.pricetag {
+  background: #bfd255; /* Old browsers */
+  background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+  /* background-color: #b1cb49; */
+  border-radius: 5px;
+  border-style: none;
+  /* padding: 0.5em; */
+  margin-left: -0.8em;
+  margin-top: 1em;
+  position: absolute;
+  /*z-index: -1;*/
+}
+
+.pricetag p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (min-width: 464px) {
+
   header {
     position: absolute;
     top: 0;

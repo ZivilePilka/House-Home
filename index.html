@@ -5,6 +5,8 @@
     <title>House & Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans" rel="stylesheet">
+    <!-- fontawesome CDN -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Latest compiled and minified bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- jQuery -->
@@ -21,7 +23,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">House'Home</a></li>
+          <li><a href="#"><i class="fa fa-houzz" aria-hidden="true"></i> House'Home</a></li>
           <li><a href="#">Accueil</a></li>
           <li><a href="#">Acheter</a></li>
           <li><a href="#">Vendre</a></li>
@@ -40,12 +42,68 @@
     </div>
     <main>
       <section class="content container">
-        <input type="text" name="recherchez" placeholder="QUE RECHERCHEZ-VOUS ?">
+        <form>
+          <input type="text" name="recherchez" placeholder="QUE RECHERCHEZ-VOUS ?">
+        </form>
         <div class="houses">
           <h2>Des millions de maisons n'attendent que vous !</h2>
-          <div class="poster">
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <img src="" alt="">
+          <div class="row">
+            <div class="home-card">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div class="pricetag">
+                <p>250 300$</p>
+              </div>
+              <img src="img/vignette/1.jpg" alt="House interior">
+              <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> 2 chambres, 2 salles de bain, etc.</a>
+            </div>
+            <div class="home-card">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div class="pricetag">
+                <p>750 100$</p>
+              </div>
+              <img src="img/vignette/6.jpg" alt="House interior">
+              <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> 2 chambres, 2 salles de bain, etc.</a>
+            </div>
+            <div class="home-card">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div class="pricetag">
+                <p>380 200$</p>
+              </div>
+              <img src="img/vignette/3.jpg" alt="House interior">
+              <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> 2 chambres, 2 salles de bain, etc.</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="home-card">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div class="pricetag">
+                <p>550 700$</p>
+              </div>
+              <img src="img/vignette/3.jpg" alt="House interior">
+              <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> 2 chambres, 2 salles de bain, etc.</a>
+            </div>
+            <div class="home-card">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div class="pricetag">
+                <p>920 100$</p>
+              </div>
+              <img src="img/vignette/5.jpg" alt="House interior">
+              <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> 2 chambres, 2 salles de bain, etc.</a>
+            </div>
+            <div class="home-card">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <div class="pricetag">
+                <p>830 600$</p>
+              </div>
+              <img src="img/vignette/6.jpg" alt="House interior">
+              <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i> 2 chambres, 2 salles de bain, etc.</a>
+            </div>
           </div>
         </div>
       </section>
